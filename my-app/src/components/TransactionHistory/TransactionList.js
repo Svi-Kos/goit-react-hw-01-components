@@ -2,7 +2,6 @@ import TransactionHistory from './TransactionHistory';
 import PropTypes from 'prop-types';
 
 function TransactionList({ items }) {
-  console.log(5);
   return (
     <tbody>
       {items.map(item => (
