@@ -1,11 +1,12 @@
-import Statistics from '../Statistics/Statistics';
+import Statistics from 'components/Statistics/Statistics';
 import PropTypes from 'prop-types';
+import s from 'components/Statistics/StatisticsStyles.module.css';
 
 function StatisticList({ items }) {
   return (
-    <ul class="stat-list">
+    <ul className={s.statList}>
       {items.map(item => (
-        <li class="item" key={item.id}>
+        <li key={item.id}>
           <Statistics stats={item} />
         </li>
       ))}

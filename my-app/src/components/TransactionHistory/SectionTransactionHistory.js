@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import s from 'components/TransactionHistory/Transaction.module.css';
 
 function SectionTransactionHistory({ children }) {
   return (
-    <table class="transaction-history">
+    <table className={s.transactionHistory}>
       {
         <thead>
           <tr>
