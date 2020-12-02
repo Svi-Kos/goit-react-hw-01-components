@@ -1,0 +1,6 @@
+.statList {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-top: 1px solid gray;
+}

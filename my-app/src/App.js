@@ -1,14 +1,14 @@
 // import logo from './logo.svg';
-import Profile from './components/Profile/Profile';
-import StatisticList from './components/Statistics/StatisticList';
-import SectionStatistics from './components/Statistics/SectionStatistics';
-import FriendList from './components/Friends/FriendList';
-import TransactionList from './components/TransactionHistory/TransactionList';
-import SectionTransactionHistory from './components/TransactionHistory/SectionTransactionHistory';
-import user from './components/Profile/user.json';
-import statData from './components/Statistics/statistical-data.json';
-import friends from './components/Friends/friends.json';
-import transactions from './components/TransactionHistory/transactions.json';
+import Profile from 'components/Profile/ProfileCard/Profile';
+import StatisticList from 'components/Statistics/StatList/StatisticList';
+import SectionStatistics from 'components/Statistics/StatSection/SectionStatistics';
+import FriendList from 'components/Friends/FriendList/FriendList';
+import TransactionList from 'components/TransactionHistory/TransactionList/TransactionList';
+import SectionTransactionHistory from 'components/TransactionHistory/TransactionSection/SectionTransactionHistory';
+import user from 'components/Profile/dataUser/user.json';
+import statData from 'components/Statistics/dataStatistic/statistical-data.json';
+import friends from 'components/Friends/dataFriends/friends.json';
+import transactions from 'components/TransactionHistory/dataTransaction/transactions.json';
 import './App.css';
 
 function App() {

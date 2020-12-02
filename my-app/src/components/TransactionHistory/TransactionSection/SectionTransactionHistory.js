@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from 'components/TransactionHistory/Transaction.module.css';
+import s from 'components/TransactionHistory/TransactionSection/TransactionSection.module.css';
 
 function SectionTransactionHistory({ children }) {
   return (

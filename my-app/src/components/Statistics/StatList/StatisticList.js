@@ -1,6 +1,6 @@
-import Statistics from 'components/Statistics/Statistics';
+import Statistics from 'components/Statistics/StatItem/Statistics';
 import PropTypes from 'prop-types';
-import s from 'components/Statistics/StatisticsStyles.module.css';
+import s from 'components/Statistics/StatList/StatListStyle.module.css';
 
 function StatisticList({ items }) {
   return (

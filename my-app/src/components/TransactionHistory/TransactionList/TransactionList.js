@@ -1,6 +1,6 @@
-import TransactionHistory from './TransactionHistory';
+import TransactionHistory from 'components/TransactionHistory/TransactionHistoryItem/TransactionHistory.jsx';
 import PropTypes from 'prop-types';
-import s from 'components/TransactionHistory/Transaction.module.css';
+import s from 'components/TransactionHistory/TransactionHistoryItem/Transaction.module.css';
 
 function TransactionList({ items }) {
   return (

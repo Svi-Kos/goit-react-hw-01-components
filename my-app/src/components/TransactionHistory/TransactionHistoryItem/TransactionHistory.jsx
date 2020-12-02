@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from 'components/TransactionHistory/Transaction.module.css';
+import s from '../TransactionHistoryItem/Transaction.module.css';
 
 export default function TransactionHistory({ items }) {
   return (
@@ -12,5 +12,5 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.object.isRequired,
+  items: PropTypes.objectOf(PropTypes.string),
 };

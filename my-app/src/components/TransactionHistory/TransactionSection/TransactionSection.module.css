@@ -14,7 +14,3 @@ td {
 th {
   width: 20%;
 }
-
-tr:nth-child(2n) {
-  background: rgb(216, 215, 215);
-}

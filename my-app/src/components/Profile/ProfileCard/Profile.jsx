@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from '../Profile/ProfileStyles.module.css';
+import s from '../ProfileCard/ProfileStyles.module.css';
 
 export default function Profile({ avatar, name, tag, location, stats }) {
   return (
@@ -30,9 +30,9 @@ export default function Profile({ avatar, name, tag, location, stats }) {
 }
 
 Profile.propTypes = {
-  avatar: PropTypes.string,
-  name: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  stats: PropTypes.object,
+  avatar: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  stats: PropTypes.object.isRequired,
 };

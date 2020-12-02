@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from 'components/Statistics/StatisticsStyles.module.css';
+import s from 'components/Statistics/StatSection/StatSectionStyles.module.css';
 
 function SectionStatistics({ title, children }) {
   return (

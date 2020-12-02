@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from 'components/Statistics/StatisticsStyles.module.css';
+import s from 'components/Statistics/StatItem/StatisticsStyles.module.css';
 
 export default function Statistics({ stats }) {
   return (
@@ -11,5 +11,10 @@ export default function Statistics({ stats }) {
 }
 
 Statistics.propTypes = {
-  stats: PropTypes.object.isRequired,
+  items: PropTypes.objectOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
+    }),
+  ),
 };

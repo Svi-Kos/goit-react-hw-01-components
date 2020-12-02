@@ -1,0 +1,10 @@
+/* item */
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.percentage {
+  margin-top: 10px;
+  font-weight: 700;
+}
